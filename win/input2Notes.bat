@@ -1,0 +1,1 @@
+powershell C:\Users\shgte\myNotes\input2Notes.ps1
