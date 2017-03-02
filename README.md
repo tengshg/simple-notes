@@ -33,3 +33,19 @@ With above setting, I can take simple notes quickly and easily:
 
 ## For OS X
 
+The OS X scripts are located in [`osx`][osx scripts]. There're three scripts that work in a slightly different way:
+
+*   __SelectText2Notes.workflow__ will save the selected text to the notes file. Just select the text, no need to copy the selected text to clipboard, then select the script from the context menu and run it, or use keyboard shortcut to run it. I assign keyboard shortcut __⌃⌥⌘N__ to this service.
+
+*   __CopyScreen2Notes.app__ use __screencapture__ command to capture a screenshot and save an image file, and append a link of the image to the notes file. I assign keyboard shortcut __⌥⇧⌘N__ to this service.
+
+*   __InputText2Notes.app__ will display a dialog box to ask you input some text,  and append the text to the notes file. I assign keyboard shortcut __⌃⇧⌘N__ to this service.
+
+With above scripts and keyboard shortcut assigned, normally I take simple notes in OS X in this way:
+
+*   When I want to select and save some text as notes, I will select and highlight the text with mouse, then press __⌃⌥⌘N__, the script will append the text selected to my notes file;
+
+*   When I want to save a screenshot as notes, I will press __⌥⇧⌘N__ key, and select whatever screen I want, then the script will save the image to a file and append a link of the image in my notes file;
+
+*   When I want to write a sentence as notes, I press __⌃⇧⌘N__, input my text in the pop up window, then press enter, the text will be put to my notes file.
+
